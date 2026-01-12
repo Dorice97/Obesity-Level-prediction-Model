@@ -1,8 +1,10 @@
 ## Obesity Level Prediction Project  
 ### Problem Statement  
 Obesity is a major public health challenge linked to chronic conditions such as type 2 diabetes and cardiovascular disease. Traditional assessment methods, particularly Body Mass Index (BMI), are widely used but often fail to capture the complex influence of demographic, behavioral, and lifestyle factors,
-leading to potential misclassification of obesity risk. Machine learning offers a data-driven approach capable of modeling complex relationships among multiple risk factors to improve obesity classification.
-This project aims to develop and evaluate machine learning models that predict an individual’s obesity category (NObeyesdad) using demographic attributes, dietary habits, physical activity, and lifestyle behaviors, thereby supporting early intervention and informed healthcare decision-making.
+leading to potential misclassification of obesity risk. Machine learning offers a data-driven approach capable of modeling complex relationships among multiple risk factors to improve obesity classification.  
+
+### Objective
+This project aims to develop and evaluate machine learning models that predict an individual’s obesity category (NObeyesdad) using demographic attributes, dietary habits, physical activity, and lifestyle behaviors, which can be used in supporting early intervention and informed healthcare decision-making.
 
 ### Scope
 - The project invoveled various steps as indicated:
@@ -18,7 +20,17 @@ This project aims to develop and evaluate machine learning models that predict a
 ### Results
 Model performance was as indicated bellow based on different classification models used:  
 
+![Model performance](https://github.com/Dorice97/Obesity-Level-prediction-Model/blob/main/model%20performance%20scores.png)  
 
+
+### Scores interpretation  
+- Decision tree- has overfitting and showed sensitivity to hyperparameters  
+- Naive Bayes- has low accuracy, underfitted  
+- Random Forest- displayed high accuracy , robust to noise and stable  
+- Gradient Boosting- Highest accuracy level, best generalization with excellent biase variance trade-off
+
+### Conclusion
+- Among all evaluated models, Gradient Boosting achieved the highest tuned test accuracy (98.6%), indicating superior generalization performance. Although Random Forest also performed strongly, Gradient Boosting was selected as the final model due to its ability to capture complex nonlinear relationships in the data.
 
 
 
