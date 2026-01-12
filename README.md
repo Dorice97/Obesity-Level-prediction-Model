@@ -17,6 +17,11 @@ This project aims to develop and evaluate machine learning models that predict a
 - Hyperparameter tuning was also applied to improve model generalization and ensure robust performance.
 -  The project emphasized on comparative analysis to identify the most effective model for obesity classification, The findings aim to demonstrate the potential of machine learning in supporting obesity risk assessment and healthcare decision-making.
 
+#### Feature Importance
+The best performing model had individual features performing as indicated below:  
+
+![feature importance](https://github.com/Dorice97/Obesity-Level-prediction-Model/blob/main/feature%20importance%20-%20obesity%20model.png)
+
 ### Results
 Model performance was as indicated bellow based on different classification models used:  
 
