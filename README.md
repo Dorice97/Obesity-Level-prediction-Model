@@ -19,3 +19,7 @@ This project aims to develop and evaluate machine learning models that predict a
 Model performance was as indicated bellow based on different classification models used:  
 
 
+
+
+
+
