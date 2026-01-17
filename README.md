@@ -35,7 +35,7 @@ Model performance was as indicated bellow based on different classification mode
 - Gradient Boosting- Highest accuracy level, best generalization with excellent biase variance trade-off
 
 ### Conclusion
-- Among all evaluated models, Gradient Boosting achieved the highest tuned test accuracy (98.6%), indicating superior generalization performance. Although Random Forest also performed strongly, Gradient Boosting was selected as the final model due to its ability to capture complex nonlinear relationships in the data.
+- Among all evaluated models, Gradient Boosting achieved the highest tuned test accuracy (97.3%), indicating superior generalization performance. Although Random Forest also performed strongly, Gradient Boosting was selected as the final model due to its ability to capture complex nonlinear relationships in the data.
 
 
 
